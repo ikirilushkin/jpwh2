@@ -19,6 +19,8 @@
         <testng.version>6.14.3</testng.version>
 
         <hibernate.version>5.4.1.Final</hibernate.version>
+
+        <hibernate.jpa21.api.version>1.0.2.Final</hibernate.jpa21.api.version>
     </properties>
 
     <build>
@@ -36,6 +38,7 @@
         <module>shared</module>
         <module>environment</module>
         <module>examples</module>
+        <module>model</module>
     </modules>
 
 

@@ -9,19 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>examples</artifactId>
+    <artifactId>model</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.jpwh</groupId>
-            <artifactId>environment</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+            <version>${hibernate.jpa21.api.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.jpwh</groupId>
-            <artifactId>model</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
     </dependencies>
 
