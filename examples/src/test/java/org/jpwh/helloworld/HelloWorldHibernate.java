@@ -8,5 +8,6 @@ public class HelloWorldHibernate extends TransactionManagerTest {
     @Test
     public void doSome() {
         System.out.println("test some");
+        TM.getUserTransaction();
     }
 }
