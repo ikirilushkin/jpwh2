@@ -6,7 +6,37 @@
 
     <groupId>org.jpwh</groupId>
     <artifactId>jpwh</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <slf4j.impl.version>1.7.26</slf4j.impl.version>
+
+        <h2.version>1.4.199</h2.version>
+
+        <btm.version>2.1.4</btm.version>
+
+        <testng.version>6.14.3</testng.version>
+
+        <hibernate.version>5.4.1.Final</hibernate.version>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M3</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <modules>
+        <module>shared</module>
+        <module>environment</module>
+        <module>examples</module>
+    </modules>
 
 
 </project>
