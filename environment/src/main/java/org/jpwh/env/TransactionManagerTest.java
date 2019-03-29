@@ -9,12 +9,10 @@ public class TransactionManagerTest {
     @BeforeSuite()
     public void beforeSuite() throws Exception {
         TM = new TransactionManagerSetup();
-        System.out.println("before");
     }
 
     @AfterSuite()
     public void afterSuite() {
-        System.out.println("after");
         if (TM != null) {
             TM.stop();
         }
